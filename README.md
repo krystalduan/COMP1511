@@ -1,2 +1,2 @@
-# comp1521
-A repo of all my work for comp1521
+# COMP1511
+A repo of all my work for COMP1511
