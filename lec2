@@ -1,0 +1,8 @@
+#include <stdio.h> 
+
+int main(void) { 
+    int ada;
+    scanf("%d", & ada);
+    printf("adas value is %d\n", ada); 
+    return 0;
+}

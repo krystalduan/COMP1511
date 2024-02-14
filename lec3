@@ -1,0 +1,12 @@
+#include <stdio.h> 
+
+int main(void) { 
+    double farenheit; 
+    printf("Enter temperature farenheit: "); 
+    scanf("%lf", & farenheit); 
+    double celsius; 
+    celsius = 5/9 * (farenheit -32);
+    printf("adas value is %lf\n", celsius); 
+    return 0; 
+}
+

@@ -1,0 +1,15 @@
+#include <stdio.h> 
+int main (void) { 
+    int sides; 
+    int rolls;
+    printf("Enter the number of sides on your dice: ");
+    scanf("%d", sides); 
+    printf("Enter the number of dice being rolled: "); 
+    scanf("%d", rolls); 
+    int dice_range_higher; 
+    dice_range_higher = rolls*sides; 
+    printf("Your dice range is %d to %d.\n", rolls, dice_range_higher);
+    int average; 
+    average = (rolls + sides)/2; 
+    return 0; 
+}
